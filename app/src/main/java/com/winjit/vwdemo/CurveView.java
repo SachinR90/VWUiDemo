@@ -128,7 +128,7 @@ public class CurveView extends View {
         gradientPath.lineTo(startX, endY);
         gradientPath.close();
         computRect.set(startX, startY, width, endY);
-        gradientPaint.setShader(new RadialGradient(computRect.centerX(), computRect.centerY(), (width / 2 + width / 3), Color.TRANSPARENT, Color.YELLOW, Shader.TileMode.MIRROR));
+        gradientPaint.setShader(new RadialGradient(computRect.centerX(), computRect.centerY(), (width / 2 + width / 3), Color.TRANSPARENT, Color.WHITE, Shader.TileMode.MIRROR));
         canvas.drawPath(gradientPath, gradientPaint);
     }
 }

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_upload_documents"
+    android:background="@android:color/darker_gray"
     android:gravity="center"
     tools:context="com.winjit.vwdemo.MainActivity"
     >
@@ -18,9 +17,13 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
         android:clipChildren="false"
         android:clipToPadding="false"
         >
+
 
         <com.winjit.vwdemo.CenterEdgeItemsRecyclerView
             android:id="@+id/wrv"
