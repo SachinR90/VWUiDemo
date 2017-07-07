@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CenterEdgeItemsRecyclerView">
+        <attr name="bezel_width" format="fraction"/>
+        <attr name="circular_scrolling_gesture_enabled" format="boolean"/>
+        <attr name="scroll_degrees_per_screen" format="float"/>
+    </declare-styleable>
+</resources>
